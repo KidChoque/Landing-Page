@@ -1,0 +1,84 @@
+
+
+@font-face {
+    font-family: "Robson";
+    src: url(../assets/Fontes/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+/* reset da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* teste do link com background color da página */
+
+.layout-grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header {
+    height: 75px;
+    background-color: rgba(240, 18, 18, 0.801);
+    
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+
+    height: 100%;
+
+
+}
+
+header nav {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+header nav a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    font-family: "Robson";
+    letter-spacing: 2px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+header nav a:hover {
+text-shadow: 0px 0px 5px rgba(247, 0, 61, 0.301);
+background-color: white;
+color: #F9003D;
+}
+
+main .banner {
+    height: 740px;
+    background-image: url(../assets/imagem-fundo-banner\ 1.png);
+    background-repeat: none;
+    background-size: cover;
+
+
+}
+
+main #dev-sistema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+    color: white;
+}
