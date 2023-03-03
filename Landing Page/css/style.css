@@ -1,9 +1,16 @@
 
 
 @font-face {
-    font-family: "Robson";
+    font-family: "Bebeas Neue";
     src: url(../assets/Fontes/Bebas_Neue/BebasNeue-Regular.ttf);
-}
+
+    }
+
+    @font-face {
+        font-family: "Open Sans";
+        src: url(../assets/Fontes/Open\ sans/);
+    }
+
 
 /* reset da página */
 * {
@@ -65,20 +72,105 @@ color: #F9003D;
 }
 
 main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
     height: 740px;
-    background-image: url(../assets/imagem-fundo-banner\ 1.png);
-    background-repeat: none;
+    /* Imagem de fundo */
+    background-image: url(../assets/Imagens/Imagens/imagem-fundo-banner\ 1.png);
+    
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
+    
 
 
 }
 
 main #dev-sistema {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     
-
+    width: 560px;
+    font-family: "Bebeas Neue";
+    font-size: 96px;
     color: white;
-}
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    }
+
+    main .Senai {
+       
+        text-transform: uppercase;
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 53px;
+        border-top: yellow;
+    }
+
+    main .Sobre {
+        
+        display: flex;
+        flex-direction: row;
+        
+        letter-spacing: 2px;
+        
+        
+        
+
+        color: white;
+        background-image: url(../assets/Imagens/Imagens/imagem-fundo-info.png);
+    }
+
+    main .Sobre h1 {
+        font-size: 64px;
+        color: red;
+        font-family: "Bebeas Neue";
+        text-transform: uppercase;
+
+    }
+
+    main #Destaque {
+        font-family: "Bebeas Neue";
+        text-transform: uppercase;
+        color: yellow;
+        width: 557px;
+    }
+
+    main .Sobre h2 {
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 24px;
+
+
+    }
+    
+    main .Sobre p {
+        font-family: "Open sans";
+        font-size: 18px;
+        Width:592px
+        
+        
+    }
+
+    main .first-collumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    main .second-collumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+
+
+
